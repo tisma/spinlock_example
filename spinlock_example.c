@@ -78,6 +78,8 @@ void spinlock_cleanup(void)
 }
 
 MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Miroslav Tisma <tisma@linux.com>");
+MODULE_DESCRIPTION("Simple kernel module which demonstrates using of spinlock");
 module_init(spinlock_init);
 module_exit(spinlock_cleanup);
 
